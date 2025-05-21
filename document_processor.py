@@ -58,7 +58,9 @@ class DocumentProcessor:
             "content": text,
             "summary": analysis["summary"],
             "category": analysis["category"],
-            "key_concepts": analysis["key_concepts"],
+            "important_points": analysis["important_points"],
+            "sections_title": analysis["sections_title"],
+            "sections_brief": analysis["sections_brief"],
             "keywords": analysis["keywords"]
         }
         
